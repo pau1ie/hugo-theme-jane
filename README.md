@@ -14,7 +14,6 @@ Jane is a readable theme for Hugo. Many color schemes to choose, and easy to per
 - Better reading experience
 - Use [Pico CSS](https://picocss.com/) as the color scheme, allowing theme color switching and dark/light mode toggle.
 - Style Settings, located at `/assets/sass/_settings.scss` .
-- Use [hugo-mods/icons](https://github.com/hugo-mods/icons).
 - Responsive and mobile friendly
 - Multilingual Mode support
 - Better Pagination, TOC, footnote behavior
@@ -28,6 +27,9 @@ Jane is a readable theme for Hugo. Many color schemes to choose, and easy to per
 2. Encourages users to modify the theme according to personal preferences for a more personalized website.
 3. Reading Experience is the top priority.
 4. Deploy once, focus on writing, no more hassle.
+
+## Real-world examples
+- [crazyoptimist](https://crazyoptimist.net/)
 
 ## Quick Start
 
@@ -85,7 +87,7 @@ cp -r themes/jane/exampleSite/content ./
 Copy the default site config:
 
 ```bash
-cp themes/jane/exampleSite/config.toml ./
+cp themes/jane/exampleSite/hugo.toml ./
 ```
 
 Take a look at the example site:
@@ -100,7 +102,7 @@ Open http://localhost:1313/ , you will see your site running with the example co
 
 ### 4. Start a Blog
 
-The default config file `config.toml` is located in your site root directory. You can customize it to match the details of your site.  Documentation about configuring Hugo can be found in the [Official Documentation](https://gohugo.io/getting-started/configuration/)
+The default config file `hugo.toml` is located in your site root directory. You can customize it to match the details of your site.  Documentation about configuring Hugo can be found in the [Official Documentation](https://gohugo.io/getting-started/configuration/)
 
 The default content files are located in the `./content/post` directory.
 
@@ -123,7 +125,7 @@ Take a look in the [exampleSite](https://github.com/xianmin/hugo-theme-jane/tree
 This directory contains an example config file and the content for the demo.
 It serves as an example setup for you to configure to your liking.
 
-Copy the `config.toml` to the root directory of your website. Overwrite the existing config file if necessary.
+Copy the `hugo.toml` to the root directory of your website. Overwrite the existing config file if necessary.
 
 
 
